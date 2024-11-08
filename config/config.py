@@ -27,7 +27,7 @@ API_HASH = getenv("API_HASH")
 ## Get it from @Botfather in Telegram.
 BOT_TOKEN = getenv("BOT_TOKEN")
 
-BOT_USERNAME = getenv("BOT_USERNAME", "musicXanime_bot")
+BOT_USERNAME = getenv("BOT_USERNAME", "Mommy_x_musicbot)
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
@@ -54,7 +54,7 @@ EXTRA_PLUGINS = getenv(
 
 EXTRA_PLUGINS_REPO = getenv(
     "EXTRA_PLUGINS_REPO",
-    "https://github.com/Moonshining1/Extra-Plugin", 
+    "https://github.com/yourtoofan/EXTRAPLUGIN", 
 )
 # iss link ko mt remove krna harmai ye management wlaa hai isme hi sub code hai management ke liye..
 # Fill here the external plugins repo where plugins that you want to load
