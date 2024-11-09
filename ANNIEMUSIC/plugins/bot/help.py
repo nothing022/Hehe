@@ -511,7 +511,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         ],  # Use a default label for the back button
     ]
     await callback_query.message.edit_text(
-        "**Hey,**\n\n**I am Annie bot ✨**\n**I am created with love by my [𝗥𝗜𝗢](https://t.me/Nonsecularhindu)🌙 ❤.**",
+        "**Hey,**\n\n**I am Mommy bot ✨**\n**I am created with love by my [𝗥𝗜𝗢](https://t.me/Nonsecularhindu)🌙 ❤.**",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
@@ -648,7 +648,7 @@ async def management_callback(client: Client, callback_query: CallbackQuery):
     )
 
     await callback_query.message.edit(
-        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](t.me/tg_friendsss)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
+        f"``**Cʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ʙᴇʟᴏᴡ ғᴏʀ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ.  Iғ ʏᴏᴜ'ʀᴇ ғᴀᴄɪɴɢ ᴀɴʏ ᴘʀᴏʙʟᴇᴍ ʏᴏᴜ ᴄᴀɴ ᴀsᴋ ɪɴ [sᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.](https://t.me/Nonsecularowner)**\n\n**Aʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ: /**``",
         reply_markup=keyboard,
     )
 
@@ -864,7 +864,7 @@ async def back_button_callback(client: Client, callback_query: CallbackQuery):
             ),
         ],
         [
-            InlineKeyboardButton(text="Annie updates", url=f"https://t.me/Nonsecularowner"),
+            InlineKeyboardButton(text="Mommy updates", url=f"https://t.me/Nonsecularowner"),
             InlineKeyboardButton(text="Share ur query💡", url=f"https://t.me/meradad"),
         ],
         [InlineKeyboardButton(text="✯ ʜᴏᴍᴇ ✯", callback_data="go_to_start")],
