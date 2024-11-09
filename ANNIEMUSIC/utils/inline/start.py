@@ -61,17 +61,17 @@ def music_start_panel(_):
     buttons = [
         [
             InlineKeyboardButton(
-                text="+ Add me to your clan darlo +",
+                text="+ 𝗔ᴅᴅ 𝗠ᴇ 𝗜ɴ 𝗬𝗼ᴜʀ 𝗚ʀᴏᴜᴘ+",
                 url=f"https://t.me/{app.username}?startgroup=true",
             )
         ],
         [
-            InlineKeyboardButton(text="⭐ About me⭐", callback_data="about"),
-            InlineKeyboardButton(text="✨ Help ✨", callback_data="feature"),
+            InlineKeyboardButton(text="⭐ 𝗔вσυт 𝗠є⭐", callback_data="about"),
+            InlineKeyboardButton(text="✨ 𝗛єℓρ ✨", callback_data="feature"),
         ],
         [
-            InlineKeyboardButton(text="❄ Owner ❄", callback_data="developer"),
-            InlineKeyboardButton(text="🎄 Update 🎄", url="https://t.me/Nonsecularowner"),
+            InlineKeyboardButton(text="❄ 𝗢ωηєя ❄", callback_data="developer"),
+            InlineKeyboardButton(text="❄ 𝗨ρ∂αтє ❄", url="https://t.me/Nonsecularowner"),
         ],
     ]
     return buttons
