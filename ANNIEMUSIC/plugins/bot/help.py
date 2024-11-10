@@ -770,7 +770,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
     buttons = [
         [
             InlineKeyboardButton(
-                text="• Annie v2.0 •",
+                text="• Mommy v2.0 •",
                 callback_data="annie",
             ),
         ],
@@ -785,7 +785,7 @@ async def about_callback(client: Client, callback_query: CallbackQuery):
         [InlineKeyboardButton(text="🔙 Back", callback_data="go_to_start")],
     ]
     await callback_query.message.edit_text(
-        f"Hi i am Annie bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Annie bot 🦋.",
+        f"Hi i am Mommy bot 🦋\nA powerful and awesome telegram group management and music player that gives you spam-free and fun environment for your groups :)\n\n**ᴀ ᴘᴏᴡᴇʀғᴜʟ ᴀɴᴅ ᴀᴡᴇsᴏᴍᴇ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ᴀɴᴅ ᴍᴜsɪᴄ ᴘʟᴀʏᴇʀ ᴛʜᴀᴛ ɢɪᴠᴇs ʏᴏᴜ sᴘᴀᴍ-ғʀᴇᴇ ᴀɴᴅ ғᴜɴ ᴇɴᴠɪʀᴏɴᴍᴇɴᴛ ғᴏʀ ʏᴏᴜʀ ɢʀᴏᴜᴘs :)\n\n● I can restrict users.\n● I can greet users with customizable welcome messages and even set a group's rules.\n● I have a music player system.\n● I have almost all awaited group managing features like ban, mute, welcome, kick, federation, and many more.\n● I have a note-keeping system, blacklists, and even predetermined replies on certain keywords.\n● I check for admins' permissions before executing any command and more stuff\n\n➻ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ғᴏʀ ɢᴇᴛᴛɪɴɢ ʙᴀsɪᴄ ʜᴇʟᴩ ᴀɴᴅ ɪɴғᴏ ᴀʙᴏᴜᴛ Annie bot 🦋.",
         reply_markup=InlineKeyboardMarkup(buttons),
     )
 
